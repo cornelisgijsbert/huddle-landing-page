@@ -4,3 +4,11 @@
 /* For body */
 /* font-family: 'Open Sans', sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/* font var */
+:root {
+  --fw-400: 400;
+  --fw-600: 600;
+  --fs-400: 1rem;
+  --fs-600: 3.35rem;
+  --fs-700: 4rem;
+}
