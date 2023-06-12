@@ -15,6 +15,9 @@ div.wrapper {
     grid-template-columns: 58% auto;
     grid-template-rows: auto auto auto;
   }
+  div.logo {
+    grid-column: 1 / span 2;
+  }
   div.illustration {
     width: 58%;
   }

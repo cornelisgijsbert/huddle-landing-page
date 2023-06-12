@@ -1,5 +1,6 @@
 @import "base/base.css";
 @import "base/reset.css";
 @import "components/button.css";
+@import "components/image.css";
 @import "utilities/color.css";
 @import "utilities/font.css";

@@ -9,6 +9,27 @@
   --fw-400: 400;
   --fw-600: 600;
   --fs-400: 1rem;
-  --fs-600: 3.35rem;
+  --fs-600: 1.625rem;
   --fs-700: 4rem;
+}
+
+div.text h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: var(--fs-600);
+  font-weight: var(--fw-600);
+  text-align: center;
+}
+
+div.text p {
+  font-family: "Open sans", sans-serif;
+  font-size: var(--fs-400);
+  font-weight: var(--fw-400);
+  text-align: center;
+}
+
+div.text button {
+  font-family: "Open sans", sans-serif;
+  font-size: var(--fs-400);
+  font-weight: var(--fw-400);
+  text-align: center;
 }
