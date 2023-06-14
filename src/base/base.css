@@ -8,17 +8,25 @@ div.wrapper {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto;
+  row-gap: 4.375rem;
+  width: calc((280 / 375) * 100%);
+  margin-top: 2.375rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media only screen and (min-width: 710px) {
   div.wrapper {
-    grid-template-columns: 58% auto;
+    grid-template-columns: calc((796 / 1440) * 100%) auto;
     grid-template-rows: auto auto auto;
+    column-gap: 3.75rem;
+    row-gap: 6.5rem;
+    margin-top: 4rem;
   }
   div.logo {
     grid-column: 1 / span 2;
   }
-  div.illustration {
+  /*div.illustration {
     width: 58%;
-  }
+  }*/
 }
