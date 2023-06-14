@@ -9,8 +9,9 @@
   --fw-400: 400;
   --fw-600: 600;
   --fs-400: 1rem;
-  --fs-600: 1.625rem;
-  --fs-700: 4rem;
+  --fs-500: 1.125rem;
+  --fs-600: 1.5rem;
+  --fs-700: 2.5rem;
 }
 
 div.text h1 {
@@ -32,4 +33,13 @@ div.text button {
   font-size: var(--fs-400);
   font-weight: var(--fw-400);
   text-align: center;
+}
+
+@media only screen and (min-width: 710px) {
+  div.text h1 {
+    font-size: var(--fs-700);
+  }
+  div.text p {
+    font-size: var(--fs-500);
+  }
 }
