@@ -8,6 +8,10 @@ div.logo img {
   width: 7.5rem;
 }
 
+div.social img {
+  filter: saturate(0) contrast(0) brightness(200%);
+}
+
 @media only screen and (min-width: 710px) {
   div.logo img {
     width: 12.5rem;

@@ -1,6 +1,8 @@
 body {
   background-color: var(--Violet);
   background-image: url(../../images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
 }
 
@@ -15,7 +17,27 @@ div.wrapper {
   margin-left: auto;
 }
 
+div.text {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+}
+
+div.text p {
+  margin-top: 1.625rem;
+  line-height: 1.7;
+}
+
+div.social {
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 710px) {
+  body {
+    background-image: url(../../images/bg-desktop.svg);
+  }
   div.wrapper {
     grid-template-columns: calc((796 / 1440) * 100%) auto;
     grid-template-rows: auto auto auto;
