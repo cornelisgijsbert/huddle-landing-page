@@ -51,6 +51,11 @@ div.social {
   div.logo {
     grid-column: 1 / span 2;
   }
+
+  div.social {
+    grid-column: 1 / span 2;
+    justify-content: flex-end;
+  }
   /*div.illustration {
     width: 58%;
   }*/
