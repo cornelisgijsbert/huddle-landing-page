@@ -6,4 +6,10 @@ div.text button {
   border: none;
   border-radius: 1.25rem;
   margin-top: 1.625rem;
+  cursor: pointer;
+}
+
+div.text button:hover {
+  background-color: var(--Soft-Magenta);
+  color: white;
 }

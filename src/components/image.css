@@ -10,6 +10,19 @@ div.logo img {
 
 div.social img {
   filter: saturate(0) contrast(0) brightness(200%);
+  cursor: pointer;
+}
+
+div.social img:hover {
+  filter: hue-rotate(360deg) saturate(0) contrast(0) brightness(100%);
+}
+
+div.social img:nth-last-child(2) {
+  margin-right: 0.75rem;
+}
+
+div.social img:nth-last-child(3) {
+  margin-right: 0.75rem;
 }
 
 @media only screen and (min-width: 710px) {
