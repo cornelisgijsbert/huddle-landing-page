@@ -13,9 +13,12 @@ div.social img {
   cursor: pointer;
 }
 
-div.social img:hover {
-  filter: hue-rotate(360deg) saturate(0) contrast(0) brightness(100%);
+div.social img.facebook:hover {
+  filter: url(../../images/icon-facebook-hover.svg);
 }
+/*div.social img:hover {
+  filter: hue-rotate(300deg) saturate(71%) contrast(69%) brightness(200%);
+}*/
 
 div.social img:nth-last-child(2) {
   margin-right: 0.75rem;
