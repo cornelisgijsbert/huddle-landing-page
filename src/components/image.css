@@ -5,6 +5,7 @@ img {
 div.logo img {
   /*min-width: 7.5rem;
   max-width: 12.5rem;*/
+  position: relative;
   width: 7.5rem;
 }
 
@@ -13,9 +14,14 @@ div.social img {
   cursor: pointer;
 }
 
-div.social img.facebook:hover {
-  filter: url(../../images/icon-facebook-hover.svg);
+div.social img::before {
+  content: "dit is tekst";
+  position: absolute;
+  top: 0;
+  left: -50px;
+  z-index: 10;
 }
+
 /*div.social img:hover {
   filter: hue-rotate(300deg) saturate(71%) contrast(69%) brightness(200%);
 }*/
