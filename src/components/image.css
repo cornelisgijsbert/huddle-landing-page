@@ -2,10 +2,9 @@ img {
   max-width: 100%;
 }
 
-div.logo img {
+div.logo {
   /*min-width: 7.5rem;
   max-width: 12.5rem;*/
-  position: relative;
   width: 7.5rem;
 }
 
@@ -14,23 +13,26 @@ div.social img {
   cursor: pointer;
 }
 
-div.social img::before {
-  content: "dit is tekst";
+div.social span::before {
+  content: url(../../images/icon-facebook-hover.svg);
   position: absolute;
   top: 0;
-  left: -50px;
-  z-index: 10;
+  left: 0;
+}
+
+div.social img:hover {
+  opacity: 0;
 }
 
 /*div.social img:hover {
   filter: hue-rotate(300deg) saturate(71%) contrast(69%) brightness(200%);
 }*/
 
-div.social img:nth-last-child(2) {
+div.social span:nth-last-child(2) {
   margin-right: 0.75rem;
 }
 
-div.social img:nth-last-child(3) {
+div.social span:nth-last-child(3) {
   margin-right: 0.75rem;
 }
 

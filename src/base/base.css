@@ -34,6 +34,10 @@ div.social {
   justify-content: center;
 }
 
+div.social span {
+  position: relative;
+}
+
 @media only screen and (min-width: 710px) {
   body {
     background-image: url(../../images/bg-desktop.svg);
@@ -54,7 +58,7 @@ div.social {
 
   div.social {
     grid-column: 2;
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
   }
   /*div.illustration {
     width: 58%;
