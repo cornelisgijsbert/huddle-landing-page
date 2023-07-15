@@ -13,8 +13,22 @@ div.social img {
   cursor: pointer;
 }
 
-div.social span::before {
+div.social span.facebook::before {
   content: url(../../images/icon-facebook-hover.svg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div.social span.twitter::before {
+  content: url(../../images/icon-twitter-hover.svg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div.social span.instagram::before {
+  content: url(../../images/icon-instagram-hover.svg);
   position: absolute;
   top: 0;
   left: 0;
